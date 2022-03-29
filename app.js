@@ -667,3 +667,349 @@
 
 //////////////////////
 
+
+// Question No 5
+
+//////////a
+
+// var a = 4;
+
+// if (++a == 5){
+//    alert("given condition for variable a is true");
+// }    ////////this condition is true
+   
+////////b
+
+// var b = 82;
+
+// if (b++ === 83){
+//      alert("given condition for variable b is true");
+// }//////////  this condition is false
+
+//////////c
+
+// var c = 12;
+// if (c++ === 13){   /////////// this is false condition
+// alert("condition 1 is true");
+// }
+// if (c === 13){ /////this is true condition
+// alert("condition 2 is true");
+// }
+// if (++c < 14){   ////this is false condition
+// document.write("condition 3 is true");
+// }
+// if(c === 14){ ////this is true condition
+// alert("condition 4 is true");
+// }
+
+//////d
+
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+//     document.write("The cost equals");
+// }       //////true condition
+// else{
+//     document.write("the cost is not equal");
+// }
+
+///////e
+
+// if(true){/////ture condition
+//     aler("true");
+// }
+// if(false){/////false condition
+//     alert("false");  
+// }
+
+////f
+
+// if("car" < "cat"){
+//     document.write("car is smaller than cat");
+//     }
+    /////// car is smillar than car
+    
+    
+///////////////////////////////
+
+
+ ///// Question No 6
+
+// var totalnumber = 300;
+// var subnumber1 = +prompt("Enter the mark of first subject")
+// var subnumber2 = +prompt("Enter the mark of second subject")
+// var subnumber3 = +prompt("Enter the mark of third subject")
+// var obtsubtotal = subnumber1+subnumber2+subnumber3;
+// var percentagetotal = obtsubtotal*100;
+    
+
+// var total = percentagetotal/totalnumber;
+// // Array
+// var percentage =[80,70,60]
+
+// if(percentage[0] <=  total){
+//    document.write("<h1> MARKSHEET </h1>"+
+//    "Total mark :"+" "+totalnumber+"<br > Mark you obtained : "+
+//    obtsubtotal+"<br /> Your percentage : "+total+ " <br />Your Grade : A-one" 
+//    +"<br /> Remarks : Excellent")
+// }
+// else if(percentage[1] <=  total){
+//    document.write("<h1> MARKSHEET </h1>"+
+//    "Total mark :"+" "+totalnumber+"<br > Mark you obtained : "+
+//    obtsubtotal+"<br /> Your percentage : "+total+ " <br />Your Grade : A" 
+//    +"<br /> Remarks : Good")
+// }
+
+// else if(percentage[2] <=  total){
+//     document.write("<h1> MARKSHEET </h1>"+
+//     "Total mark :"+" "+totalnumber+"<br > Mark you obtained : "+
+//     obtsubtotal+"<br /> Your percentage : "+total+ " <br />Your Grade : B" 
+//     +"<br /> Remarks : You need to improve")
+//  }
+ 
+// else if(percentage[2] >=  total){
+//     document.write("<h1> MARKSHEET </h1>"+
+//     "Total mark :"+" "+totalnumber+"<br > Mark you obtained : "+
+//     obtsubtotal+"<br /> Your percentage : "+total+ " <br />Your Grade : Fail" 
+//     +"<br /> Remarks : Sorry")
+//  }
+//  else{
+//      document.write("Something is wrong")
+//  }
+
+
+//////////////////
+
+/////Question No 7 
+
+// var secretNumber = 5;
+// var secretValue = prompt("Enter the number and try your luck");
+
+// if(secretValue == 5){
+//     document.write("Bingo! Correct Answer");
+// }else if (secretValue == 6){
+//     document.write("Close enough to the correct answer");
+// }else{
+//     document.write("Try again");
+// }
+
+//////////////////
+
+
+// Question No 8
+
+// var input = prompt("Enter the number and divisible by 3");
+// var divisible = input%3;
+
+// if(divisible == 0){
+//     document.write("This number is divisible by 3");
+// }else{
+//     document.write("this number is not divisible by 3");
+// }
+
+///////////////////
+
+// Question No 9 
+
+
+// var evenNumber = prompt("Enter the Number","Enter here");
+// var evencheck =  evenNumber%2;
+
+// if(evencheck === 0){
+//     document.write("Its even number")
+// }else if (evencheck != 0){
+//     document.write("Its odd number")
+// }
+
+////////////////////
+
+
+// Queston No 10
+
+// var temperature = prompt("Enter the temperature of the city");
+
+// if(temperature >= 40){
+//     document.write(" <h1> It is too hot outside </h1>")
+// }
+
+// else if(temperature >= 30){
+//     document.write(" <h1> The weather today is noraml </h1>")
+// }
+
+// else if(temperature >= 20){
+//     document.write(" <h1> Today weather is cool </h1>")
+// }
+
+// else if(temperature >= 10){
+//     document.write(" <h1> OMG! today weather is cool </h1>")
+// }
+
+
+
+
+
+
+
+
+//////////////////////
+
+
+// Question No 11
+
+// var firstnumber = +prompt("Enter the first number of calculation");
+// var secondnumber = +prompt("Enter the Second number of calculation");
+// var opt = prompt("Enter the operator");
+
+// if(opt == "+"){
+//     document.write(firstnumber+secondnumber)
+// }
+// else if(opt == "-"){
+//     document.write(firstnumber-secondnumber)
+// }
+// else if(opt == "/"){
+//     document.write(firstnumber/secondnumber)
+// }
+// else if(opt == "%"){
+//     document.write(firstnumber%secondnumber)
+// }
+// else if(opt == "*"){
+//     document.write(firstnumber*secondnumber)
+// }
+// else{
+//     document.write("Thats not match")
+// }
+
+///////////////////////
+
+
+// CHAPTER NO 12 TO 13
+
+// Question No 1 
+
+
+// var hint = prompt("Enter the Number");
+
+// if (hint >= 65 && hint <= 90){
+//           document.write("This is upper case letter");
+// }else if(hint >= 97 && hint < 122){
+//     document.write("This is lower case letter");
+// } 
+
+
+///////////////////////
+
+
+///Question No 2
+
+// var a = prompt("Enter the value")
+// var b = prompt("Enter the value")
+
+// if (a == b){
+//     document.write("the Both are Equal")
+// }else if (a > b){
+//     document.write("This the larger "+a)
+// }else if (a < b){
+//     document.write("This the larger "+b)
+// }else{
+//     document.write("Enter the integers")
+// }
+
+
+/////////////////////////
+
+//Question No 3
+
+// var number1 = prompt("Enter the Number here")
+
+// if(number1 == 0){
+//     document.write("This Value is Zero")
+// }else if(number1 > 0){
+//     document.write("This value is Positive")
+// }else if(number1 < 0){
+//     document.write("This Value is Negative")
+// }
+
+
+////////////////////
+
+// Question No 4
+
+// var vowel = prompt("Enter the Character and check its vowel");
+
+// if(vowel === "a" || vowel === "A"){
+//     document.write("True");
+// }
+// else if(vowel === "e" || vowel === "E"){
+//     document.write("True");
+// }
+// else if(vowel === "i" || vowel === "I"){
+//     document.write("True");
+// }
+// else if(vowel === "o" || vowel === "O"){
+//     document.write("True");
+// }
+// else if(vowel === "u" || vowel === "U"){
+//     document.write("True");
+// }else{
+//     document.write("False")
+// }
+
+
+
+/////////////////////
+
+// Question No  5
+
+// var password = 786;////this is password
+// var passwordcheck = prompt("Enter the password here");
+
+// if(passwordcheck == password){
+//     document.write("Correct! The password you entered matches the original password");
+// }
+// else if (passwordcheck == ""){
+//      document.write("Please Enter the password")
+// }else{
+//     document.write("Incorrect password");
+// }
+
+
+
+//////////////////
+
+// Question No 6
+
+// var greeting;
+// var hour = prompt("Enter Hour");
+// if (hour < 18) {
+//  document.write(greeting = "Good day");
+// }
+// else{
+//   document.write(greeting = "Good evening");
+// }
+
+
+// Question No 7
+
+
+// var time = prompt("Greeting the time")
+
+// if(time >= 0000 && time < 1200){
+//        document.write("Good Morning")
+// }
+// else if(time >= 1200 && time < 1700){
+//        document.write("Good Afternoon")
+// }
+// else if(time >= 1700 && time < 2100){
+//        document.write("Good Evening")
+// }
+// else if(time >= 2100 && time <= 2400){
+//        document.write("Good Night")
+// }else{
+//     document.write("Invalid Number")
+// }
+
+
+
+///////////////////////
